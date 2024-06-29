@@ -109,11 +109,11 @@
         }
 
         #fuk:hover h2 {
-            transform: translateX(-40%); /* Move text to the left */
+            transform: translateX(-40%);
         }
 
         #fuk:hover .download-icon {
-            right: 20px; /* Slide in the icon from the right */
+            right: 20px;
         }
         h2{
             font-family: "Poppins", sans-serif;
@@ -141,16 +141,16 @@
     margin: 0;
     opacity: 0;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    transform: translateX(200%); /* Move text to the right initially */
+    transform: translateX(200%);
 }
 
 #hehe:hover h2 {
     opacity: 1;
-    transform: translateX(calc(160% - 55px)); /* Slide text to the left on hover */
+    transform: translateX(calc(160% - 55px));
 }
 
 #hehe:hover img {
-    transform: translateX(0); /* Move image to the left on hover */
+    transform: translateX(0);
 }
 
 
@@ -211,10 +211,10 @@ window.addEventListener('scroll', () => {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     if (scrollTop > lastScrollTop) {
-        // Downscroll code
+       
         header.style.top = `-${headerHeight}px`;
     } else {
-        // Upscroll code
+        
         header.style.top = '0';
     }
     
