@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Britishman</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Manrope:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+        html {
+            scroll-behavior: smooth;
+            cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkPT/AJD0/wA8bSEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJD0/wCQ9P8AkPT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkPT/AJD0/wAAAAAAAAAAAAAAAAAAAAAASiUBAsxYxALMWLIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE6GRYCzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQ7+8DAAAAAAAAAAAAAAAAAAAAAAAAAAACzFj/AsxY/wLMWP8A4I7/AOCO/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADXg//803/3/AsxY/wLMWP8CzFj/AsxY/wLMWP8A4I7/AOCO/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wAAAAAAAAAAAAAAAACQ9P8AkPT/ACA1GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALMWP8CzFj/NeD//zXg//8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wHUbv8A4I7/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wAAAAAAkPT/AJD0/wCQ9P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA14P//AsxY/wLMWP814P//NeD//wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AAAAAACQ9P8AkPT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADXg//8Awff/NeD//zXg//814P//NeD//wLMWP8X4IX/GeKJ/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANeD//zXg//814P//NeD//4/v//814P//GeKJ////////////GeKJ/wDC//8AkPT/AsxY/xfghP8Z4on/GeKJ/wTOXv8CzFj/AsxY/wLMWP8CzFj/AsxY/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANeD//zXg//814P//NeD/+TXg//rM+eX//////0tLS///////AM///wDH//8Awv//GeKJ////////////GeKJ/xTcfP8CzFj/AsxY/wLMWP8CzFj/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA14P//NeD//wAAAAAAAAAAAAAAAP/////g+ev/AsxY/wLMWP8CzFj/Ft+I/wLMWP/Z2dn/9fX1////////////GeKJ/wLMWP8CzFj/AsxY/wLMWP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADXg//814P//AAAAAAAAAAAU3X3XAsxY/xniif8Z4on/GeKJ/xniif8CzFj/GeKJ/wLMWP9LS0v///////////8Z4on/AsxY/wLMWP8CzFj/AsxY/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABniif8Z4on/GeKJ/xniif8Z4on/GeKJ/xniif8Z4on/GeKJ/wLMWP8CzFj//////xniif8CzFj/AsxY/wLMWP8CzFj/AsxY/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACeGM/xniif8Z4on/GeKJ/xniif8O13H/GeKJ/xniif8Z4on/GeKJ/xniif8CzFj/GeKJ/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4I7/AOCO/wDgjv8CzFj/AsxY/wLMWP8CzFj/GeKJ/xniif8Z4on/GeKJ/xniif8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4I7/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFn/GeKJ/xniif8Z4on/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFjjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8Z4on/AsxY/xniif8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALMWP8CzFj/A81ZmgAAAAAAAAAAAsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnIxNQLMWP8CzFj/AsxY/wLMWP8CzFj/AsxY0ABLIgUCzFj/AsxY/wLMWP8BdzMXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALMWP8CzFj/AsxY/wLMWP8AAAAAAAAAAAPLWJ014P//AsxY/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFGHhgARh0NAAAAAADB9/814P//NeD//wLMWP8CzFj/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPP0gVNeD//zXg//814P//AsxY/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEv1/0o14P//NeD//zXg//814P//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9t/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANeD/1TXg//814P//NeD//2no//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/23/AP9t/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA14P//NeD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/bf8A/23/AP9t/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9t/wD/bf8A/23/AP9t/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/23/AP9t/wD/bf8A/23/AP9t/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/bf8A/23/AP9t/wD/bf8A/23/AP9t/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////5////8f////Pn////AP///AB//wAAOfwAABH4AAAT+AAAH/gAAB/8AAAf/OAAH/zAAB//wAAP/8AAB//AAAf/4AAD/+AAA//xgAP//+BH///wx////wf///8P////D9///g/P//5/x////8P////B////wP///8='), auto;
+        }
+
+        body {
+            padding: 0;
+            background-color: rgb(255, 255, 255);
+            margin: 0;
+        }
+
+        header {
+            width: 100%;
+            height: 60px;
+            background-color: rgba(56, 56, 56, 0.486);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            transition: top 0.3s;
+            z-index: 4;
+            
+            
+        }
+
+        
+        h1 {
+            font-family: "Gloock", serif;
+            font-weight: 400;
+            margin: 0;
+            font-style: normal;
+            font-size: x-large;
+            transition: text-shadow 0.3s ease-in-out;
+            margin-right: 30px;
+        }
+
+        #left, #right {
+            margin-left: 20px;
+            margin-right: 0px;
+            display: flex;
+            align-items: center;
+        }
+
+        #im{
+            height: 400px;
+            width: auto;
+        }
+        a{
+            
+            font-family: "Poppins", sans-serif;
+            font-style: bold;
+            font-weight: 400;
+            text-decoration: none;
+            color: black;
+            margin-left: 20px;
+            transition: text-shadow 0.3s ease-in-out;
+            transition: color 0.3s;
+        }
+        a:hover{
+            
+            color: white;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
+                         0 0 20px rgba(205, 205, 205, 0.5),
+                         0 0 30px rgba(111, 111, 111, 0.3),
+                         0 0 40px rgba(108, 108, 108, 0.2);
+        }
+        #fuk {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            text-decoration: none;
+            background-color: #ffb95d;
+            height: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+}
+
+        #fuk h2 {
+            margin: 0;
+        }
+
+        .download-icon {
+            position: absolute;
+            top: 55%;
+            right: -40px;
+            transform: translateY(-50%);
+            transition: right 0.3s ease-in-out;
+        }
+
+        .download-icon img {
+            width: 30px;
+            height: auto;
+        }
+
+        #fuk:hover h2 {
+            transform: translateX(-40%); /* Move text to the left */
+        }
+
+        #fuk:hover .download-icon {
+            right: 20px; /* Slide in the icon from the right */
+        }
+        h2{
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            text-decoration: none;
+            font-size: medium;
+        }
+        #hehe {
+            margin-right: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#hehe img {
+    height: 30px;
+    margin-left: auto;
+    transition: margin-left 0.3s ease-in-out;
+    position: absolute;
+    right: 0;
+}
+
+#hehe h2 {
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateX(200%); /* Move text to the right initially */
+}
+
+#hehe:hover h2 {
+    opacity: 1;
+    transform: translateX(calc(160% - 55px)); /* Slide text to the left on hover */
+}
+
+#hehe:hover img {
+    transform: translateX(0); /* Move image to the left on hover */
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+         <div id="left">
+            <h1>Mera Chela</h1>
+            <nav>
+                <img src="">
+                <a href="#">Home</a>
+                <a href="#">Characters</a>
+                <a href="#">Socials</a>
+                <a href="#">Updates</a>
+              </nav>
+        </div>
+        <div id="right">
+            <div id="hehe" style="min-width: 100px;">
+                <img id="user-icon" src="icons8-user-96.png" alt="User Icon">
+                <h2>Log In</h2>
+            </div>
+            <div id="fuk" style="background-color: #ffb95d; height: 60px; padding-left: 20px; padding-right: 20px; width: auto; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+                <h2 style="margin: 0; transition: transform 0.3s; font-weight: 400;">DOWNLOAD</h2>
+                <div class="download-icon">
+                    <img src="download-icon.png" alt="Download Icon">
+                </div>
+            </div>
+            
+        </div>
+        
+    </header>
+   <img src="mona-genshin-impact-4k-wallpaper-uhdpaper.com-66@0@e.jpg" style="width: 100%;">
+   <div style="position: relative; top: -350px; font-size: 60px; margin-left: 20px;">
+    <h1 style="font-size: 60px; color: rgb(0, 0, 0);">Released on <br> Multiple Platforms</h1>
+    <div style="margin-top: 20px; width: 200px; display: flex; ">
+        <img style="width: 200px; margin-right: 10px;" src="https://fastcdn.hoyoverse.com/mi18n/hk4e_global/m20230605hy15aec7wg/upload/5e40bf473e0d70d7cde9cc8f482a27f5_1238149791370982661.png" class="sea-download-layout-download__item-btn-img">
+        <img style="width: 200px; margin-right: 10px;" src="https://fastcdn.hoyoverse.com/mi18n/hk4e_global/m20230605hy15aec7wg/upload/1d3c9d4cc13a31181ea2274e8880211e_2289274652994491899.png" class="sea-download-layout-download__item-btn-img">
+    </div>
+    <div style=" width: 200px; display: flex; ">
+        <img style="width: 200px; margin-right: 10px; margin-top: 20px;" src="https://fastcdn.hoyoverse.com/mi18n/hk4e_global/m20230605hy15aec7wg/upload/3c7a98ca75cb8dc9fd0e7304c54575a2_5244248928874198708.png" class="sea-download-layout-download__item-btn-img">
+        <img style="width: 200px; margin-right: 10px; margin-top: 20px;" src="https://fastcdn.hoyoverse.com/mi18n/hk4e_global/m20230605hy15aec7wg/upload/079913eac05a2b9c472ffde90f1a6e44_6030510959257944981.png" class="sea-download-layout-download__item-btn-img">
+    </div>
+    </div>
+    <div id="heh" style="position: relative; right: 0; top: -440px; text-align: right;">
+        <img src="https://fastcdn.hoyoverse.com/mi18n/resource-trans/upload/event/2023/06/16/b78519881c92a8d70855e9ac3676264c_4202446182860634674.png" class="sea-download-layout-tag__img" style="max-width: 100%; height: auto;">
+    </div>
+
+    
+    <script>
+        let lastScrollTop = 0;
+const header = document.querySelector('header');
+const headerHeight = header.offsetHeight;
+
+window.addEventListener('scroll', () => {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        // Downscroll code
+        header.style.top = `-${headerHeight}px`;
+    } else {
+        // Upscroll code
+        header.style.top = '0';
+    }
+    
+    lastScrollTop = scrollTop;
+});
+    </script>
+
+
+</body>
+</html>
